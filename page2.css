@@ -1,0 +1,72 @@
+body{
+  background: rgba(0, 0, 0, 0.251) url('appetizer.jpeg');
+ background-blend-mode: darken;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#button{
+  width: 50px;
+  min-height: 50px;
+  margin-bottom: 600px;
+  margin-left: auto;
+}
+.appetizer-title {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.appetizer-title h1 {
+  margin-left: 10px;
+  font-size: 50px;
+  transform: rotate(-90deg);  
+  color: white;
+}
+.appetizer-title #pmb{
+  width: 260px;
+  height: 160px;
+  border-radius: 56px;
+position: absolute;
+margin-bottom: 400px;
+margin-left: 350px;
+}
+.appetizer-title #spb{
+  width: 260px;
+  height: 160px;
+  border-radius: 56px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left:650px ;
+}
+.appetizer-title #fb{
+  width: 260px;
+  height: 160px;
+  border-radius: 56px;
+  position: absolute;
+  margin-left: 1000px;
+  margin-bottom: 400px;
+}
+#balls {
+margin-left: 400px;
+margin-top: -350px;
+text-align: center;
+font-size: 50px;
+color: white;
+}
+#bread{
+  text-align: center;
+  font-size: 50px;
+  margin-left: -400px;
+  margin-bottom: -300px;
+  color: white;
+}
+#fruit{
+  text-align: center;
+  font-size: 50px;
+  margin-left: 660px;
+  margin-bottom: 390px;
+  color: white;
+}
+

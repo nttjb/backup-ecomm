@@ -1,0 +1,153 @@
+/* image 1 */
+.image-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(background1.jpg) no-repeat center center;
+    background-size: cover;
+    filter:brightness(60%);
+}
+
+/* FOOD */
+.food {
+    position: absolute;
+    width: 183px;
+    height: 66px;
+    left: 0;
+    top: 0;
+    bottom: 20px;
+    font-family: 'Judson';
+    font-size: 42px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+/* FIESTA */
+.fiesta {
+    position: absolute;
+    width: 294px;
+    height: 66px;
+    left: 544px;
+    top: 305px;
+    font-family: 'Judson';
+    font-size: 100px;
+    line-height: 116px;
+    color: #ffffff;
+}
+
+/* FOOD-1 */
+.food-1 {
+    position: absolute;
+    width: 294px;
+    height: 66px;
+    left: 466px;
+    top: 228px;
+    font-family: 'Judson';
+    font-size: 100px;
+    line-height: 116px;
+    color: #E3E3E3;
+}
+
+/* HOME */
+.home {
+    position: absolute;
+    width: 134px;
+    height: 55px;
+    left: 1070px;
+    top: 20px;
+    font-family: 'Concert One';
+    font-size: 51px;
+    line-height: 40px;
+    color: #E3E3E3;
+}
+
+/* contact */
+.contact {
+    position: absolute;
+    width: 184px;
+    height: 55px;
+    left: 1250px;
+    top: 22px;
+    font-family: 'Concert One';
+    font-size: 51px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+/* appitizer */
+.appetizer {
+    position: absolute;
+    width: 387px;
+    height: 50px;
+    left: 160px;
+    top: 559px;
+    font-family: 'Kavivanar';
+    font-size: 85px;
+    line-height: 126px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* desert */
+.desert {
+    position: absolute;
+    width: 387px;
+    height: 50px;
+    left: 1090px;
+    top: 555px;
+    font-family: 'Kavivanar';
+    font-size: 85px;
+    line-height: 126px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Main Course */
+.main-course {
+    position: absolute;
+    width: 483px;
+    height: 50px;
+    left: 700px;
+    top: 500px;
+    font-family: 'Kavivanar';
+    font-size: 72px;
+    line-height: 107px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* TASTE OF THE UNKNOWN */
+.taste-of-the-unknown {
+    position: absolute;
+    width: 420px;
+    height: 44px;
+    left: 695px;
+    top: 294px;
+    font-family: 'Kalam';
+    font-size: 30px;
+    line-height: 49px;
+    color: #0E0E0E;
+}
+
+/* image 6 */
+.image-6 {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 957px;
+    top: 26px;
+    background: url(image.png);
+}
+
+/* image 7 */
+.image-7 {
+    position: absolute;
+    width: 55px;
+    height: 47px;
+    left: 1385px;
+    top: 26px;
+    background: url(image.png);
+}
