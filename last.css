@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.251) url('background1.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
+#contact{
+    font-size: 100px;
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.icon {
+    display: flex;
+    justify-content: center; 
+    font-size: 50px;
+    gap: 20px;
+    margin-bottom: -50px; /* Adjust this value to move the icons more upward */
+}
+
+.icon a {
+    margin: 0 10px; 
+    color: black;
+}
+

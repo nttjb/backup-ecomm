@@ -23,7 +23,10 @@
     line-height: 48px;
     color: #ffffff;
 }
-
+.contact {
+    cursor: pointer;
+    color: blue;
+}
 /* FIESTA */
 .fiesta {
     position: absolute;

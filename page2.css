@@ -1,17 +1,19 @@
-body{
+body {
   background: rgba(0, 0, 0, 0.251) url('appetizer.jpeg');
- background-blend-mode: darken;
+  background-blend-mode: darken;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
-#button{
+
+#button {
   width: 50px;
   min-height: 50px;
   margin-bottom: 600px;
   margin-left: auto;
 }
+
 .appetizer-title {
   display: flex;
   align-items: center;
@@ -24,23 +26,26 @@ body{
   transform: rotate(-90deg);  
   color: white;
 }
-.appetizer-title #pmb{
+
+.appetizer-title #pmb {
   width: 260px;
   height: 160px;
   border-radius: 56px;
-position: absolute;
-margin-bottom: 400px;
-margin-left: 350px;
+  position: absolute;
+  margin-bottom: 400px;
+  margin-left: 350px;
 }
-.appetizer-title #spb{
+
+.appetizer-title #spb {
   width: 260px;
   height: 160px;
   border-radius: 56px;
   position: absolute;
   margin-top: 400px;
-  margin-left:650px ;
+  margin-left: 650px;
 }
-.appetizer-title #fb{
+
+.appetizer-title #fb {
   width: 260px;
   height: 160px;
   border-radius: 56px;
@@ -48,25 +53,112 @@ margin-left: 350px;
   margin-left: 1000px;
   margin-bottom: 400px;
 }
+
 #balls {
-margin-left: 400px;
-margin-top: -350px;
-text-align: center;
-font-size: 50px;
-color: white;
+  margin-left: 380px;
+  margin-top: -380px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
 }
-#bread{
+
+#bread {
   text-align: center;
   font-size: 50px;
   margin-left: -400px;
   margin-bottom: -300px;
   color: white;
 }
-#fruit{
+
+#fruit {
   text-align: center;
   font-size: 50px;
-  margin-left: 660px;
-  margin-bottom: 390px;
+  margin-left: 690px;
+  margin-top: -300px;
   color: white;
 }
 
+#price1 {
+  margin-left: -800px;
+  margin-top: -200px;
+  font-size: 25px;
+  color: white;
+}
+
+#price2 {
+  color: white;
+  margin-left: -250px;
+  margin-bottom: -500px;
+  font-size: 25px;
+}
+
+#price3 {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 800px;
+  margin-top: -100px;
+  color: white;
+}
+
+#quantity1 {
+  margin-left: -1000px;
+  margin-top: -600px;
+  font-size: 25px;
+  color: white;
+}
+
+#quantity2 {
+  color: white;
+  margin-left: 175px;
+  margin-bottom: -600px;
+  font-size: 25px;
+}
+
+#quantity3 {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 235px;
+  margin-top: -600px;
+  color: white;
+}
+
+#des1 {
+  margin-left: -830px;
+  margin-top: -100px;
+  color: white;
+}
+
+#des2 {
+  margin-top: 400px;
+  margin-left: 250px;
+  color: white;
+}
+
+#des3 {
+  margin-left: -190px;
+  margin-bottom: 130px;
+  color: white;
+}
+
+/* Hover effects */
+#button:hover,
+.appetizer-title h1:hover,
+.appetizer-title #pmb:hover,
+.appetizer-title #spb:hover,
+.appetizer-title #fb:hover,
+#balls:hover,
+#bread:hover,
+#fruit:hover,
+#price1:hover,
+#price2:hover,
+#price3:hover,
+#quantity1:hover,
+#quantity2:hover,
+#quantity3:hover,
+#des1:hover,
+#des2:hover,
+#des3:hover {
+  transform: scale(1.1);
+  color: rgb(232, 155, 60);
+  transition: transform 0.3s ease;
+}
