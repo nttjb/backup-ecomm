@@ -1,4 +1,11 @@
-/* image 1 */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 .image-1 {
     position: absolute;
     width: 100%;
@@ -7,150 +14,179 @@
     top: 0;
     background: url(background1.jpg) no-repeat center center;
     background-size: cover;
-    filter:brightness(60%);
+    filter: brightness(60%);
 }
 
-/* FOOD */
 .food {
     position: absolute;
-    width: 183px;
-    height: 66px;
-    left: 0;
-    top: 0;
-    bottom: 20px;
+    width: 20%;
+    height: auto;
+    left: 2%;
+    top: 2%;
     font-family: 'Judson';
-    font-size: 42px;
-    line-height: 48px;
+    font-size: 2.5vw;
+    line-height: 1.2;
     color: #ffffff;
 }
-.contact {
-    cursor: pointer;
-    color: blue;
-}
-/* FIESTA */
+
 .fiesta {
     position: absolute;
-    width: 294px;
-    height: 66px;
-    left: 544px;
-    top: 305px;
+    width: 50%;
+    height: auto;
+    left: 43%;
+    top: 36%;
     font-family: 'Judson';
-    font-size: 100px;
-    line-height: 116px;
+    font-size: 5vw;
+    line-height: 1.2;
     color: #ffffff;
 }
 
-/* FOOD-1 */
 .food-1 {
     position: absolute;
-    width: 294px;
-    height: 66px;
-    left: 466px;
-    top: 228px;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    top: 29%;
     font-family: 'Judson';
-    font-size: 100px;
-    line-height: 116px;
+    font-size: 5vw;
+    line-height: 1.2;
     color: #E3E3E3;
 }
 
-/* HOME */
 .home {
+    
     position: absolute;
-    width: 134px;
-    height: 55px;
-    left: 1070px;
-    top: 20px;
+    width: 10%;
+    height: auto;
+    left: 65%;
+    top: 5%;
     font-family: 'Concert One';
-    font-size: 51px;
-    line-height: 40px;
+    font-size: 2.5vw;
+    line-height: 1.2;
     color: #E3E3E3;
 }
 
-/* contact */
 .contact {
     position: absolute;
-    width: 184px;
-    height: 55px;
-    left: 1250px;
-    top: 22px;
+    width: 12%;
+    height: auto;
+    left: 76%;
+    top: 5%;
     font-family: 'Concert One';
-    font-size: 51px;
-    line-height: 40px;
+    font-size: 2.5vw;
+    line-height: 1.2;
     text-transform: uppercase;
     color: #E3E3E3;
 }
 
-/* appitizer */
+.log {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    left: 90%;
+    top: 5%;
+    font-family: 'Concert One';
+    font-size: 2.5vw;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
 .appetizer {
     position: absolute;
-    width: 387px;
-    height: 50px;
-    left: 160px;
-    top: 559px;
+    width: 25%;
+    height: auto;
+    left: 10%;
+    top: 60%;
     font-family: 'Kavivanar';
-    font-size: 85px;
-    line-height: 126px;
+    font-size: 5vw;
+    line-height: 1.5;
     text-decoration: underline;
     color: #ffffff;
 }
 
-/* desert */
 .desert {
     position: absolute;
-    width: 387px;
-    height: 50px;
-    left: 1090px;
-    top: 555px;
+    width: 25%;
+    height: auto;
+    left: 75%;
+    top: 60%;
     font-family: 'Kavivanar';
-    font-size: 85px;
-    line-height: 126px;
+    font-size: 5vw;
+    line-height: 1.5;
     text-decoration: underline;
     color: #ffffff;
 }
 
-/* Main Course */
 .main-course {
     position: absolute;
-    width: 483px;
-    height: 50px;
-    left: 700px;
-    top: 500px;
+    width: 40%;
+    height: auto;
+    left: 45%;
+    top: 60%;
     font-family: 'Kavivanar';
-    font-size: 72px;
-    line-height: 107px;
+    font-size: 4vw;
+    line-height: 1.5;
     text-decoration: underline;
     color: #ffffff;
 }
 
-/* TASTE OF THE UNKNOWN */
 .taste-of-the-unknown {
     position: absolute;
-    width: 420px;
-    height: 44px;
-    left: 695px;
-    top: 294px;
+    width: 30%;
+    height: auto;
+    left: 47.5%;
+    top:34%;
     font-family: 'Kalam';
-    font-size: 30px;
-    line-height: 49px;
+    font-size: 1.5vw;
+    line-height: 1.5;
     color: #0E0E0E;
 }
 
-/* image 6 */
 .image-6 {
     position: absolute;
-    width: 50px;
-    height: 49px;
-    left: 957px;
-    top: 26px;
+    width: 5%;
+    height: auto;
+    left: 55%;
+    top: 5%;
     background: url(image.png);
 }
 
-/* image 7 */
 .image-7 {
     position: absolute;
-    width: 55px;
-    height: 47px;
-    left: 1385px;
-    top: 26px;
+    width: 5%;
+    height: auto;
+    left: 85%;
+    top: 5%;
     background: url(image.png);
+}
+
+@media (max-width: 768px) {
+    .food, .home, .contact, .log {
+        font-size: 4vw;
+    }
+    .fiesta, .food-1 {
+        font-size: 8vw;
+    }
+    .appetizer, .desert, .main-course {
+        font-size: 6vw;
+    }
+    .taste-of-the-unknown {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .food, .home, .contact, .log {
+        font-size: 5vw;
+    }
+    .fiesta, .food-1 {
+        font-size: 10vw;
+    }
+    .appetizer, .desert, .main-course {
+        font-size: 8vw;
+    }
+    .taste-of-the-unknown {
+        font-size: 4vw;
+    }
 }
